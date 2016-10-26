@@ -10,6 +10,8 @@ type HaproxyConfig struct {
 	Defaults string `json:"defaults,omitempty" yaml:"defaults,omitempty"`
 
 	Global string `json:"global,omitempty" yaml:"global,omitempty"`
+
+    BackendSsl bool `json:"backendSsl,omitempty" yaml:"backend_ssl,omitempty"`
 }
 
 type HaproxyConfigCollection struct {
